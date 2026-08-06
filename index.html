@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Commit</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  </head>
+  <body>
+
+    <div class="sky"></div>
+
+    <header>
+      <div class="logo"><span class="cursor"></span>night_commit</div>
+      <nav>
+        <ul>
+          <li><a href="#projects" data-i18n="nav_projects">projects</a></li>
+          <li><a href="#about" data-i18n="nav_about">about</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <button id="langToggle" class="lang-btn" type="button">AR</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow" data-i18n="status">status: online · last commit 2h ago</div>
+      <h1>
+        <span data-i18n="hero1">We ship while</span><br>
+        <span data-i18n="hero2">the city </span><span class="amber" data-i18n="hero3">sleeps.</span>
+      </h1>
+      <p class="sub" data-i18n="sub">Night Commit is a software studio for building products, tools, and infrastructure for teams who'd rather see something working than see another slide deck.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn primary" data-i18n="cta_projects">View projects</a>
+        <a href="#contact" class="btn ghost" data-i18n="cta_contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="head">
+        <h2 data-i18n="proj_head">projects/</h2>
+        <span data-i18n="proj_sub">3 repositories · public</span>
+      </div>
+      <div class="projects">
+
+        <article class="card">
+          <div class="card-body">
+            <h3 data-i18n="proj1_title">Project One</h3>
+            <p data-i18n="proj_desc_placeholder_1">Short description of what this project does and the problem it solves for its users. Swap this in with your real project.</p>
+            <div class="diff"><span class="add">feat: shipped v1.0</span></div>
+            <div class="tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">NestJS</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+          <div class="card-foot">
+            <a target="_blank" href="https://alrazi.ai/" data-i18n="live_site_1">Live site →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3 data-i18n="proj2_title">Project Two</h3>
+            <p data-i18n="proj_desc_placeholder_2">Short description of what this project does and the problem it solves for its users. Swap this in with your real project.</p>
+            <div class="diff"><span class="add">refactor: launched public beta</span></div>
+            <div class="tags"><span class="tag">PHP</span><span class="tag">Laravel</span><span class="tag">Redis</span></div>
+          </div>
+          <div class="card-foot">
+            <a target="_blank" href="https://www.azcoupon.it/" data-i18n="live_site_2">Live site →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3 data-i18n="proj3_title">Project Three</h3>
+            <p data-i18n="proj_desc_placeholder_3">Short description of what this project does and the problem it solves for its users. Swap this in with your real project.</p>
+            <div class="diff"><span class="add">feat: added course entrollment</span></div>
+            <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Docker</span></div>
+          </div>
+          <div class="card-foot">
+            <a target="_blank" href="https://www.alustadh.com/" data-i18n="live_site_3">Live site →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="head">
+        <h2 data-i18n="about_head">about/</h2>
+        <span>readme.md</span>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p data-i18n="about_p1">Night Commit builds backend systems and full products for teams that need things done right, not just done. The name is a nod to the habit of pushing real progress after everyone else has logged off.</p>
+          <p data-i18n="about_p2">Based in Alexandria, Egypt — working with clients everywhere.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="head">
+        <h2 data-i18n="contact_head">contact/</h2>
+        <span data-i18n="contact_sub_label">reach us</span>
+      </div>
+      <div class="contact-box">
+        <h2 data-i18n="contact_title">Let's build something.</h2>
+        <p class="sub" data-i18n="contact_sub">Open to freelance work, collaborations, and full projects.</p>
+
+        <a href="mailto:abdelrhmansaeed001@gmail.com" class="btn primary">
+          nightcommit0@gmail.com
+        </a>
+
+        <div class="social-row">
+          <a href="https://wa.me/201022077166" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="WhatsApp" dir="ltr">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.93 9.93 0 0 0 1.333 4.993L2 22l5.132-1.347a9.92 9.92 0 0 0 4.877 1.277h.005c5.505 0 9.989-4.478 9.99-9.985A9.99 9.99 0 0 0 12.012 2zm5.835 14.12c-.24.675-1.18 1.31-1.63 1.378-.448.067-.999.122-3.136-.718-2.733-1.074-4.469-3.843-4.605-4.023-.137-.18-1.096-1.455-1.096-2.776 0-1.32.686-1.968.96-2.246.275-.278.583-.347.78-.347h.556c.171 0 .402.012.583.444.205.496.693 1.688.753 1.81.06.12.1.264.017.42-.083.167-.156.278-.291.44-.134.162-.284.362-.407.486-.135.137-.277.287-.12.556.157.269.7 1.144 1.492 1.854.125.112.833.805 1.558.919.273.042.43.018.59-.168.16-.186.685-.798.868-1.07.183-.27.365-.223.615-.13.252.093 1.6.754 1.875.891.274.137.456.205.524.32.068.118.068.685-.172 1.36z"/>
+            </svg>
+            <span>+201022077166</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span data-i18n="footer_rights">© 2026 Night Commit</span>
+      <div class="footer-social">
+        <a target="_blank" href="https://www.linkedin.com/company/night-commit" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a target="_blank" href="https://github.com/night-commit" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.57 2.34 1.12 2.91.86.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+        </a>
+      </div>
+    </footer>
+
+    <!-- language files must load before main.js -->
+    <script src="lang/en.js"></script>
+    <script src="lang/ar.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
