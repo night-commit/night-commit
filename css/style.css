@@ -79,7 +79,7 @@ h1 .accent-text{color:var(--accent);}
 .btn{
   font-family:'JetBrains Mono', monospace;
   font-size:14px;
-  padding:12px 20px;
+  padding:12px 15px;
   border-radius:6px;
   border:1px solid var(--line);
   color:var(--text-hi);
