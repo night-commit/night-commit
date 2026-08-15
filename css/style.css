@@ -37,8 +37,10 @@ nav .wrap{display:flex; align-items:center; justify-content:space-between; heigh
 .brand img{width:26px; height:26px;}
 nav .links{display:flex; align-items:center; font-size:14px; color:var(--text-lo);}
 nav .links a{margin-left:28px;}
+html[dir="rtl"] nav .links a{margin-left:0; margin-right:28px;}
 nav .links a:hover{color:var(--accent-bright);}
 nav .btn{margin-left:28px;}
+html[dir="rtl"] nav .btn{margin-left:0; margin-right:28px;}
 #lang-toggle{
   margin-left:28px;
   font-family:'JetBrains Mono', monospace;
@@ -51,6 +53,7 @@ nav .btn{margin-left:28px;}
   cursor:pointer;
 }
 #lang-toggle:hover{border-color:var(--accent); color:var(--accent-bright);}
+html[dir="rtl"] #lang-toggle{margin-left:0; margin-right:28px;}
 
 /* ---------- hero ---------- */
 header.hero{
@@ -79,7 +82,7 @@ h1 .accent-text{color:var(--accent);}
 .btn{
   font-family:'JetBrains Mono', monospace;
   font-size:14px;
-  padding:12px 12px;
+  padding:12px 20px;
   border-radius:6px;
   border:1px solid var(--line);
   color:var(--text-hi);
@@ -89,6 +92,7 @@ html[lang="ar"] .btn{font-family:'Tajawal', monospace;}
 .btn.primary{background:var(--bg-2); border-color:#2c4665;}
 .btn:hover{border-color:var(--accent); background:var(--bg-2);}
 .cta-row .btn + .btn{margin-left:14px;}
+html[dir="rtl"] .cta-row .btn + .btn{margin-left:0; margin-right:14px;}
 
 .stars circle{fill:var(--text-lo); opacity:0.5;}
 
@@ -114,10 +118,10 @@ section + section{border-top:1px solid var(--line);}
 .timeline{position:relative; padding-left:36px;}
 html[dir="rtl"] .timeline{padding-left:0; padding-right:36px;}
 .timeline::before{
-  content:""; position:absolute; left:12px; top:6px; bottom:6px; width:2px;
+  content:""; position:absolute; left:9px; top:6px; bottom:6px; width:2px;
   background:linear-gradient(var(--node), var(--line));
 }
-html[dir="rtl"] .timeline::before{left:auto; right:12px;}
+html[dir="rtl"] .timeline::before{left:auto; right:9px;}
 .commit{position:relative; padding-bottom:44px;}
 .commit:last-child{padding-bottom:0;}
 .commit::before{
@@ -136,6 +140,7 @@ html[lang="ar"] .commit-meta{font-family:'Tajawal', monospace;}
   font-family:'JetBrains Mono', monospace; font-size:12px; color:var(--text-dim);
   border:1px solid var(--line); border-radius:4px; padding:3px 8px;
 }
+html[lang="ar"] .commit .tags span{font-family:'Tajawal', monospace;}
 .commit-link{
   display:inline-flex; align-items:center; gap:6px;
   margin-top:14px;
@@ -146,9 +151,6 @@ html[lang="ar"] .commit-meta{font-family:'Tajawal', monospace;}
 }
 html[lang="ar"] .commit-link{font-family:'Tajawal', monospace;}
 .commit-link:hover{color:var(--accent-bright); border-color:var(--accent-bright);}
-.commit-link svg{width:13px; height:13px;}
-html[dir="rtl"] .commit-link svg{transform:scaleX(-1);}
-html[lang="ar"] .commit .tags span{font-family:'Tajawal', monospace;}
 
 /* ---------- approach ---------- */
 .approach{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;}
