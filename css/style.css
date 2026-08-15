@@ -118,7 +118,7 @@ section + section{border-top:1px solid var(--line);}
 .timeline{position:relative; padding-left:36px;}
 html[dir="rtl"] .timeline{padding-left:0; padding-right:36px;}
 .timeline::before{
-  content:""; position:absolute; left:9px; top:6px; bottom:6px; width:2px;
+  content:""; position:absolute; left:12px; top:6px; bottom:6px; width:2px;
   background:linear-gradient(var(--node), var(--line));
 }
 html[dir="rtl"] .timeline::before{left:auto; right:9px;}
