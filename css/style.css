@@ -121,7 +121,7 @@ html[dir="rtl"] .timeline{padding-left:0; padding-right:36px;}
   content:""; position:absolute; left:12px; top:6px; bottom:6px; width:2px;
   background:linear-gradient(var(--node), var(--line));
 }
-html[dir="rtl"] .timeline::before{left:auto; right:9px;}
+html[dir="rtl"] .timeline::before{left:auto; right:12px;}
 .commit{position:relative; padding-bottom:44px;}
 .commit:last-child{padding-bottom:0;}
 .commit::before{
